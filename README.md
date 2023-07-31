@@ -1,4 +1,4 @@
-# credit-risk-classification
+-# credit-risk-classification
 Overview of the Analysis:
 
 The purpose of this analysis was to build and evaluate machine learning models to predict a binary outcome based on financial information. The data provided contained various financial features, and we needed to predict whether a given loan application would result in a default (1) or not (0).
@@ -17,20 +17,20 @@ Results:
 
 Machine Learning Model 1:
 
-- Balanced Accuracy Score: [Value]
-- Precision Score: [Value]
-- Recall Score: [Value]
+0: Precision: 1.00, Recall: 1.00, balanced accuracy score: 0.944, f1-score: 1.00
+
+1: Precision: 0.87, Recall: 0.89, balanced accuracy score: 0.944, f1-score: 0.88
 
 Machine Learning Model 2:
 
-- Balanced Accuracy Score: [Value]
-- Precision Score: [Value]
-- Recall Score: [Value]
+0: Precision: 0.99, Recall: 0.99, balanced accuracy score: 0.994, f1-score: 0.99
+
+1: Precision: 0.99, Recall: 0.99, balanced accuracy score: 0.994, f1-score: 0.99
 
 Summary:
 
-Based on the results, [mention the model name] performed better than the other model(s) with the highest balanced accuracy score, precision, and recall. We determined this by comparing the metrics obtained for each model during the evaluation.
+Based on the results, Model 2 performed better than Model 1 with the highest balanced accuracy score, precision, and recall. We determined this by comparing the metrics obtained for each model during the evaluation.
 
-Performance might depend on the problem we are trying to solve. For example, if it is more critical to correctly predict loan defaults (1's), then maximizing the recall score would be crucial to identify as many defaults as possible, even if it increases false positives. On the other hand, if predicting non-defaults (0's) is more important, maximizing precision would be a priority to reduce false positives.
+Performance might depend on the problem we are trying to solve. For example, if it is more critical to correctly predict loan defaults, then maximizing the recall score would be crucial to identify as many defaults as possible, even if it increases false positives. On the other hand, if predicting non-defaults is more important, maximizing precision would be a priority to reduce false positives.
 
-Overall, [mention the chosen model] is recommended due to its superior performance in predicting loan defaults. However, the decision ultimately depends on the specific goals and priorities of the business or application. If the balance between recall and precision is crucial, further fine-tuning of the models might be necessary. Additionally, collecting more data or experimenting with different features could potentially improve model performance further.
+Overall, Model 2 is recommended due to its superior performance in predicting loan defaults. However, the decision ultimately depends on the specific goals and priorities of the business or application. If the balance between recall and precision is crucial, further fine-tuning of the models might be necessary. Additionally, collecting more data or experimenting with different features could potentially improve model performance further.
